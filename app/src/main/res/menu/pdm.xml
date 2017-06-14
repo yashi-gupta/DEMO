@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <item android:id="@+id/omi1"
+       android:title="SETTING"
+       app:showAsAction="ifRoom"
+       android:icon="@android:drawable/ic_menu_camera">
+
+   </item>
+    <item android:id="@+id/omi2" android:title="CAMERA"></item>
+    <item android:id="@+id/omi3" android:title="BLUETOOTH"></item>
+    <item android:id="@+id/omi4" android:title="EXIT"></item>
+
+
+
+</menu>

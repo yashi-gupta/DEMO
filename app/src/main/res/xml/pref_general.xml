@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference
+    android:key="key1"
+    android:title="Delivery Report"
+    android:summary="for acknowledgement"/>
+
+    <CheckBoxPreference
+        android:key="key2"
+        android:title="Splash Screen"
+        android:summary="ON/OFF"/>
+
+    <SwitchPreference android:key="key3"
+        android:title="T9 Help"
+        android:summary="for text auto fill"/>
+
+
+    <RingtonePreference android:key="key4"
+        android:title="Ringtone"
+        android:summary="select sound"/>
+
+
+</PreferenceScreen>
